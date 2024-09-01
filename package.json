@@ -1,0 +1,23 @@
+{
+  "name": "node-crud",
+  "version": "1.0.0",
+  "description": "Esta es mi primera pagina",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon App.js",
+    "start": "node App.js"
+  },
+  "author": "Randal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.6",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.6.0",
+    "nodemon": "^3.1.4"
+  }
+}
